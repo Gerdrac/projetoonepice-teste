@@ -1,13 +1,10 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-.container{
-    max-width: 1080px;
-}
 
-header{
+header {
     background-color: black;
     width: 50%;
     display: flex;
@@ -15,21 +12,92 @@ header{
     padding: 5px;
 }
 
-.logo img{
+.container {
+    max-width: 1080px;
+}
+
+.logo img {
     width: 50%;
     width: 100px;
-   align-items: left;
-   margin-right: 0;
+    align-items: left;
+    margin-right: 0;
 }
-.menu nav a{
+
+.menu nav a {
     width: 50%;
     text-decoration: none;
     padding-right: 10px;
     font-size: 20px;
-    color:white;
+    color: white;
     border-right: solid 2px white;
 }
-p {
+
+.subtitulo {
+    font-size: 20px;
+    margin-top: 10px;
+    color: black;
+    background-color: white;
+    width: 50%;
+    text-align: center;
+    margin: auto;
+}
+
+.home {
+    color: white;
+    font-size: 30px;
+    border-bottom: solid 5px white;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.image {
+    display: flex;
+    justify-content: center;
+}
+
+.imagecapa {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    margin: auto;
+}
+
+.info li {
+    color: black;
+    text-align: center;
+    align-items: center;
+    padding: 20px;
+    background-color: white;
+    border: solid 5px;
+    max-width: 50%;
+    font-size: 30px;
+    margin: auto;
+}
+
+.op {
+    .sinopse {
+        font-size: 15px;
+        color: black;
+        margin: auto;
+        background-color: white;
+        padding: 10px;
+        text-align: center;
+        width: 50%;
+    }
+}
+
+.sinopse {
+    font-size: 15px;
+    color: black;
+    margin: auto;
+    background-color: white;
+    padding: 10px;
+    text-align: center;
+    width: 50%;
+}
+
+.descrição {
     color: black;
     border: solid 5px;
     margin: 16px 100px;
@@ -37,24 +105,6 @@ p {
     padding: 10px;
     font-size: 30px;
     text-align: center;
-}
-
-.image {
-    display: flex;
-    justify-content: center; 
-}
-
-.info li{
-    color: black;
-    text-align: center;
-    align-items: center;
-    padding: 20px;
-    background-color: white ;
-    border: solid 5px;
-    max-width: 50%;
-    font-size: 30px;
-    margin: auto;
-
 }
 
 h1 {
