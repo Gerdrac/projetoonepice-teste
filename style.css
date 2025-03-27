@@ -16,7 +16,7 @@ img {
 .container {
   max-width: 1920px;
   height: 100%;
-  display: block;
+  display: inline-block;
   align-items: center;
   justify-content: center;
   margin: 0 auto;
@@ -27,11 +27,12 @@ header {
   /* display:inline-block; */
   /* align-items: center; */
   /* padding: 5px; */
-  margin:  auto;
+  margin: auto;
   top: 0;
-  left: 0;
+  /* left: 0; */
   position: fixed;
   /* justify-content: center; */
+  padding-top: 15px;
 }
 .menu nav a {
   width: 100%;
@@ -40,33 +41,33 @@ header {
   align-items: center;
   justify-content: center;
   margin: 0;
-
+  display: inline;
+  transition: background .7s;
   font-size: 15px;
   color: white;
+  position: static;
   /* border-right: solid 2px white; */
-/* text-align: center;
+  /* text-align: center;
 justify-content: center;
 margin: auto; */
-
-
 }
 
-.menu nav a:hover{ 
+.menu nav a:hover {
   background-color: black;
 }
 .logo {
-  width: 5%;
+  width: 6%;
   float: inline-start;
-  margin-top: -8px;
+  margin-top: -14px;
+  padding: auto;
   background-color: #23252b;
   align-items: left;
-  margin-right: 0;
   
+
   /* height: 50%; */
-  
 }
 
-.logo:hover{
+.logo:hover {
   background-color: black;
 }
 
@@ -171,10 +172,9 @@ footer h2 {
 }
 footer p {
   font-size: 20px;
-  align-items: center;
-  justify-content: center;
-  display: flex;
-  padding-right: 1px;
+  text-align: center;
+  justify-content:center;
+  margin: auto;
 }
 footer .box-line {
   align-items: center;
@@ -189,11 +189,13 @@ footer .box-line {
 }
 .linefooter1 h2 {
   font-size: 10px;
+  padding: 0;
 }
 #link-topo2 {
   align-items: center;
   display: flex;
   justify-content: center;
+  margin-top: 10px;
 }
 
 /* @media(max-width: 450px) { */
