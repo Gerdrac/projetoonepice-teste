@@ -198,4 +198,70 @@ footer .box-line {
   margin-top: 10px;
 }
 
-/* @media(max-width: 450px) { */
+@media(max-width: 720px){
+  body{
+    font-size: 10px;
+  }
+  .container {
+  max-width: 720px;
+  height: 100%;
+  display: inline-block;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+}
+header {
+  background-color: #23252b;
+  width: 100%;
+  /* display:inline-block; */
+  /* align-items: center; */
+  /* padding: 5px; */
+  margin: auto;
+  top: 0;
+  /* left: 0; */
+  position: fixed;
+  /* justify-content: center; */
+  padding-top: 15px;
+}
+.menu nav a {
+  width: 100%;
+  padding: 5px;
+  padding-right: 20px;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  display: inline-block;
+  transition: background .7s;
+  font-size: 10px;
+  color: white;
+  position: static;
+  /* border-right: solid 2px white; */
+  /* text-align: center;
+justify-content: center;
+margin: auto; */
+}
+
+.menu nav a:hover {
+  background-color: black;
+}
+.logo {
+  width: 6%;
+  float: inline-start;
+  margin-top: -14px;
+  padding: auto;
+  background-color: #23252b;
+  align-items: left;
+  
+
+  /* height: 50%; */
+}
+
+.logo:hover {
+  background-color: black;
+}
+
+a {
+  text-decoration: none;
+}
+}
+
